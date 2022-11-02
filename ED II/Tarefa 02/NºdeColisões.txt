@@ -1,0 +1,42 @@
+Número de colisões de cada arquivo:
+
+50tipo1-1.txt -> 33
+50tipo1-2.txt -> 32
+50tipo1-3.txt -> 25
+50tipo1-4.txt -> 28
+50tipo1-5.txt -> 32
+
+
+50tipo2-1.txt -> 31
+50tipo2-2.txt -> 27
+50tipo2-3.txt -> 31
+50tipo2-4.txt -> 30
+50tipo2-5.txt -> 28
+
+
+100tipo1-1.txt -> 58
+100tipo1-2.txt -> 65
+100tipo1-3.txt -> 67
+100tipo1-4.txt -> 63
+100tipo1-5.txt -> 60
+
+
+100tipo2-1.txt -> 75
+100tipo2-2.txt -> 69
+100tipo2-3.txt -> 66
+100tipo2-4.txt -> 66
+100tipo2-5.txt -> 61
+
+
+150tipo1-1.txt -> 92
+150tipo1-2.txt -> 88
+150tipo1-3.txt -> 80
+150tipo1-4.txt -> 89
+150tipo1-5.txt -> 85
+
+
+150tipo2-1.txt -> 97
+150tipo2-2.txt -> 111
+150tipo2-3.txt -> 102
+150tipo2-4.txt -> 98
+150tipo2-5.txt -> 105

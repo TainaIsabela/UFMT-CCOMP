@@ -1,0 +1,6 @@
+// Instituição: UFMT - Campus Araguaia
+// Disciplina: Prog. II 
+// Aluna: Tainá Isabela Monteiro da Silva - RGA: 202011722019
+
+//  A atribuição esta correta, pois o shared_ptr<int> p(new int(42)) é um ponteiro para um inteiro que aponta para o valor 42.
+//  O ponteiro c aponta para o ponteiro p, ou seja, o valor 42 é copiado para o ponteiro c.
