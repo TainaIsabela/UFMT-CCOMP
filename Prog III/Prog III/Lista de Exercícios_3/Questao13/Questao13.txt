@@ -1,0 +1,5 @@
+// Explique as diferenças entre visibilidade de atributos public, private e protected em java.
+
+atributos public: permite acesso a qualquer código externo a classe.
+atributos protected: permite acesso às classes filhas, mas proíbe a qualquer outro acesso externo.
+atributos private: proíbe qualquer acesso externo à própria classe, inclusive das classes filhas.

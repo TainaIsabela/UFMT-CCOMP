@@ -1,0 +1,2 @@
+mysql> insert into jogadores values (99999, 'MESSI FERNANDES', 'MESSI', 'FERNANDES', '1979-12-8', 'Angola', 188, 'Moreirense FC', 'Goleiro', 37, 0);
+Query OK, 1 row affected (0,01 sec)

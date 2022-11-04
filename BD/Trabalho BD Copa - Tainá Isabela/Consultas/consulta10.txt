@@ -1,0 +1,122 @@
+mysql> select j.nome, j.pais, gols_assistencias_jogadores.gols as num_de_gols_ordem_desc from gols_assistencias_jogadores inner join jogadores j on gols_assistencias_jogadores.jogador_id = j.jogador_id where gols >= 1 order by gols desc;
++---------------------------+----------------------+------------------------+
+| nome                      | pais                 | num_de_gols_ordem_desc |
++---------------------------+----------------------+------------------------+
+| JAMES RODRIGUEZ           | Columbia             |                      6 |
+| THOMAS MUELLER            | Germany              |                      5 |
+| ROBIN VAN PERSIE          | Netherlands          |                      4 |
+| LIONEL MESSI              | Argentina            |                      4 |
+| NEYMAR SANTOS JR.         | Brazil               |                      4 |
+| ARJEN ROBBEN              | Netherlands          |                      3 |
+| KARIM BENZEMA             | France               |                      3 |
+| ANDRE SCHUERRLE           | Germany              |                      3 |
+| XHERDAN SHAQIRI           | Switzerland          |                      3 |
+| ENNER VALENCIA            | Ecuador              |                      3 |
+| MIROSLAV KLOSE            | Germany              |                      2 |
+| CLINT DEMPSEY             | USA                  |                      2 |
+| ASAMOAH GYAN              | Ghana                |                      2 |
+| TIM CAHILL                | Australia            |                      2 |
+| BRYAN RUIZ                | Costa Rica           |                      2 |
+| ALEXIS SANCHEZ            | Chile                |                      2 |
+| LUIS SUAREZ               | Uruguay              |                      2 |
+| DAVID LUIZ                | Brazil               |                      2 |
+| TONI KROOS                | Germany              |                      2 |
+| GERVINHO YAO KOUASSI      | Ivory Coast          |                      2 |
+| ANDRE AYEW                | Ghana                |                      2 |
+| MARIO GOETZE              | Germany              |                      2 |
+| MATS HUMMELS              | Germany              |                      2 |
+| OSCAR DOS SANTOS JR.      | Brazil               |                      2 |
+| JACKSON MARTINEZ          | Columbia             |                      2 |
+| MEMPHIS DEPAY             | Netherlands          |                      2 |
+| AHMED MUSA                | Nigeria              |                      2 |
+| WILFRIED BONY             | Ivory Coast          |                      2 |
+| ISLAM SLIMANI             | Algeria              |                      2 |
+| ABDELMOUMENE DJABOU       | Algeria              |                      2 |
+| IVAN PERISIC              | Croatia              |                      2 |
+| MARIO MANDZUKIC           | Croatia              |                      2 |
+| RAFAEL MARQUEZ            | Mexico               |                      1 |
+| FERNANDO TORRES           | Spain                |                      1 |
+| JERMAINE JONES            | USA                  |                      1 |
+| KLAAS JAN HUNTELAAR       | Netherlands          |                      1 |
+| ALEKSANDR KERZHAKOV       | Russia               |                      1 |
+| IVICA OLIC                | Croatia              |                      1 |
+| WAYNE ROONEY              | England              |                      1 |
+| SAMI KHEDIRA              | Germany              |                      1 |
+| MILE JEDINAK              | Australia            |                      1 |
+| PABLO ARMERO              | Columbia             |                      1 |
+| CRISTIANO RONALDO         | Portugal             |                      1 |
+| JORGE VALDIVIA            | Chile                |                      1 |
+| XABI ALONSO               | Spain                |                      1 |
+| FERNANDINHO LUIZ ROZA     | Brazil               |                      1 |
+| JEAN BEAUSEJOUR           | Chile                |                      1 |
+| PETER ODEMWINGIE          | Nigeria              |                      1 |
+| WESLEY SNEIJDER           | Netherlands          |                      1 |
+| BLERIM DZEMAILI           | Switzerland          |                      1 |
+| ORIBE PERALTA             | Mexico               |                      1 |
+| JAVIER HERNANDEZ          | Mexico               |                      1 |
+| DIEGO GODIN               | Uruguay              |                      1 |
+| DAVID VILLA               | Spain                |                      1 |
+| KEISUKE HONDA             | Japan                |                      1 |
+| FRED CHAVES GUEDES        | Brazil               |                      1 |
+| GIOVANI DOS SANTOS        | Mexico               |                      1 |
+| ANDRES GUARDADO           | Mexico               |                      1 |
+| VARELA SILVESTRE          | Portugal             |                      1 |
+| NANI DA CUNHA             | Portugal             |                      1 |
+| ANGEL DI MARIA            | Argentina            |                      1 |
+| JUAN MATA                 | Spain                |                      1 |
+| EDINSON CAVANI            | Uruguay              |                      1 |
+| LEE KEUNHO                | South Korea          |                      1 |
+| MARCOS URENA              | Costa Rica           |                      1 |
+| EDUARDO VARGAS            | Chile                |                      1 |
+| CARLO COSTLY              | Honduras             |                      1 |
+| GONZALO HIGUAIN           | Argentina            |                      1 |
+| SHINJI OKAZAKI            | Japan                |                      1 |
+| THIAGO SILVA              | Brazil               |                      1 |
+| MAROUANE FELLAINI         | Belgium              |                      1 |
+| JAN VERTONGHEN            | Belgium              |                      1 |
+| KOO JACHEOL               | South Korea          |                      1 |
+| RAFIK HALLICHE            | Algeria              |                      1 |
+| MATHIEU VALBUENA          | France               |                      1 |
+| GEORGIOS SAMARAS          | Greece               |                      1 |
+| CLAUDIO MARCHISIO         | Italy                |                      1 |
+| SOKRATIS PAPASTATHOPOULOS | Greece               |                      1 |
+| MIRALEM PJANIC            | Bosnia & Herzegovina |                      1 |
+| EDIN DZEKO                | Bosnia & Herzegovina |                      1 |
+| VEDAD IBISEVIC            | Bosnia & Herzegovina |                      1 |
+| MARIO BALOTELLI           | Italy                |                      1 |
+| MESUT OEZIL               | Germany              |                      1 |
+| DANIEL STURRIDGE          | England              |                      1 |
+| JOEL CAMPBELL             | Costa Rica           |                      1 |
+| SON HEUNGMIN              | South Korea          |                      1 |
+| JUAN CUADRADO             | Columbia             |                      1 |
+| TEOFILO GUTIERREZ         | Columbia             |                      1 |
+| HARIS SEFEROVIC           | Switzerland          |                      1 |
+| GRANIT XHAKA              | Switzerland          |                      1 |
+| OSCAR DUARTE              | Costa Rica           |                      1 |
+| STEFAN DE VRIJ            | Netherlands          |                      1 |
+| MOUSSA SISSOKO            | France               |                      1 |
+| CHARLES ARANGUIZ          | Chile                |                      1 |
+| MARCOS ROJO               | Argentina            |                      1 |
+| SOFIANE FEGHOULI          | Algeria              |                      1 |
+| DALEY BLIND               | Netherlands          |                      1 |
+| LEROY FER                 | Netherlands          |                      1 |
+| GEORGINIO WIJNALDUM       | Netherlands          |                      1 |
+| JOEL MATIP                | Cameroon             |                      1 |
+| ADMIR MEHMEDI             | Switzerland          |                      1 |
+| JUAN QUINTERO             | Columbia             |                      1 |
+| BLAISE MATUIDI            | France               |                      1 |
+| OLIVIER GIROUD            | France               |                      1 |
+| ALEXANDER KOKORIN         | Russia               |                      1 |
+| ROMELU LUKAKU             | Belgium              |                      1 |
+| DRIES MERTENS             | Belgium              |                      1 |
+| KEVIN DE BRUYNE           | Belgium              |                      1 |
+| OGNJEN VRANJES            | Bosnia & Herzegovina |                      1 |
+| REZA GHOOCHANNEJAD        | Iran                 |                      1 |
+| ANDREAS SAMARIS           | Greece               |                      1 |
+| YACINE BRAHIMI            | Algeria              |                      1 |
+| PAUL POGBA                | France               |                      1 |
+| JULIAN GREEN              | USA                  |                      1 |
+| JOHN BROOKS               | USA                  |                      1 |
+| DIVOCK ORIGI              | Belgium              |                      1 |
++---------------------------+----------------------+------------------------+
+116 rows in set (0.00 sec)

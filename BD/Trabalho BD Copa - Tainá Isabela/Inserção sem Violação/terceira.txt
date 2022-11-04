@@ -1,0 +1,2 @@
+mysql> insert into cartoes_jogadores values (99999, 0, 0);
+Query OK, 1 row affected (0,01 sec)

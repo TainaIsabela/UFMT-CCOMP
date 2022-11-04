@@ -1,0 +1,16 @@
+.global _start
+multi9: 
+    sll t0, a0, 3       #a0*8
+    add t0, t0, a0      # soma a0 ao resultado
+    mv a0, t0           # a0 <- t0 (valor de retorno  vai p/ a0)
+    ret                 # pseudo-instrução: jalr x0, ra, 0
+                        #Invoca a rotina multi9(4)
+                        #1. Carrega o argumento 4 para a0
+_start:                 # Ponto de Inicio
+addi a0, zero, 4
+                        #2. Invoca a rotina multi9
+jal multi9
+end: 
+    li a0, 0            # addi a0, zero, 0
+    li a7, 93           # addi a7, zero, 93 #exit
+    ecall               #saltar para uma rotina dentro do S.O

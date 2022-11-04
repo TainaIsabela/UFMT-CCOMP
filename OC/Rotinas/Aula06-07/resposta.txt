@@ -1,0 +1,4 @@
+O erro é que a variável V estaria "vivendo" mais do que se é esperado,
+por isso que a apos a compilação do código é dado um aviso de "segmentation fault"
+por conta que como a variável V estaria "vivendo" mais do que se é esperado ela irá
+consumir memória de forma infinita.

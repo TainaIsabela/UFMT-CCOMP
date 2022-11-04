@@ -1,0 +1,2 @@
+mysql> insert into cartoes_jogadores values (999999, 90, 09);
+ERROR 1452 (23000): Cannot add or update a child row: a foreign key constraint fails (`copa`.`cartoes_jogadores`, CONSTRAINT `cartoes_jogadores_ibfk_1` FOREIGN KEY (`jogador_id`) REFERENCES `jogadores` (`jogador_id`))

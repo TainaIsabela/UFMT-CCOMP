@@ -1,0 +1,2 @@
+mysql> insert into pais values ('Brazil', 293.4 , 4, 'Pedro Henrique');
+ERROR 1062 (23000): Duplicate entry 'Brazil' for key 'pais.PRIMARY'

@@ -1,0 +1,2 @@
+mysql> insert into pais values ('Angola', 39.89, 0, 'Vinicius Camelo');
+Query OK, 1 row affected (0,01 sec)

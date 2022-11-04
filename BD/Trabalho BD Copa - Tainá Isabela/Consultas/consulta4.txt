@@ -1,0 +1,9 @@
+mysql> select j.nome, j.pais from cartoes_jogadores inner join jogadores j on cartoes_jogadores.jogador_id = j.jogador_id where numero_de_cartoes_amarelos =  (select max(numero_de_cartoes_amarelos) from cartoes_jogadores);
++--------------------------+----------------------+
+| nome                     | pais                 |
++--------------------------+----------------------+
+| KONSTANTINOS KATSOURANIS | Greece               |
+| THIAGO SILVA             | Brazil               |
+| VEDAD IBISEVIC           | Bosnia & Herzegovina |
++--------------------------+----------------------+
+3 rows in set (0.00 sec)

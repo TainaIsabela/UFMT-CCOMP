@@ -1,0 +1,16 @@
+mysql> select j.nome, j.pais, gols_assistencias_jogadores.gols as num_de_gols_ordem_desc from gols_assistencias_jogadores inner join jogadores j on gols_assistencias_jogadores.jogador_id = j.jogador_id where gols > 2 order by gols desc;
++-------------------+-------------+------------------------+
+| nome              | pais        | num_de_gols_ordem_desc |
++-------------------+-------------+------------------------+
+| JAMES RODRIGUEZ   | Columbia    |                      6 |
+| THOMAS MUELLER    | Germany     |                      5 |
+| ROBIN VAN PERSIE  | Netherlands |                      4 |
+| LIONEL MESSI      | Argentina   |                      4 |
+| NEYMAR SANTOS JR. | Brazil      |                      4 |
+| ARJEN ROBBEN      | Netherlands |                      3 |
+| KARIM BENZEMA     | France      |                      3 |
+| ANDRE SCHUERRLE   | Germany     |                      3 |
+| XHERDAN SHAQIRI   | Switzerland |                      3 |
+| ENNER VALENCIA    | Ecuador     |                      3 |
++-------------------+-------------+------------------------+
+10 rows in set (0.00 sec)

@@ -1,0 +1,30 @@
+mysql> select nome_do_pais from pais where numero_de_vitorias_em_copas=0;
++----------------------+
+| nome_do_pais         |
++----------------------+
+| Algeria              |
+| Australia            |
+| Belgium              |
+| Bosnia & Herzegovina |
+| Cameroon             |
+| Chile                |
+| Columbia             |
+| Costa Rica           |
+| Croatia              |
+| Ecuador              |
+| Ghana                |
+| Greece               |
+| Honduras             |
+| Iran                 |
+| Ivory Coast          |
+| Japan                |
+| Mexico               |
+| Netherlands          |
+| Nigeria              |
+| Portugal             |
+| Russia               |
+| South Korea          |
+| Switzerland          |
+| USA                  |
++----------------------+
+24 rows in set (0.00 sec)

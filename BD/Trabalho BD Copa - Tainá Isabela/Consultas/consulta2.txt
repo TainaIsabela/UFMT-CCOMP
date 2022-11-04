@@ -1,0 +1,14 @@
+mysql> select nome_do_pais from pais where numero_de_vitorias_em_copas>=1;
++--------------+
+| nome_do_pais |
++--------------+
+| Argentina    |
+| Brazil       |
+| England      |
+| France       |
+| Germany      |
+| Italy        |
+| Spain        |
+| Uruguay      |
++--------------+
+8 rows in set (0.00 sec)

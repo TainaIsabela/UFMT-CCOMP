@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Carrinho de compras</title>
+  <link rel="stylesheet" href="cart.css">
+  <script src="products.js"></script>
+  <script src="cart.js"></script>
+</head>
+
+<body>
+  <div id="cart-wrap">
+    <div id="cart-products"></div>
+    <div id="cart-items"></div>
+  </div>
+
+  <template id="template-product">
+    <div class="p-item">
+      <img class="p-img" />
+      <div class="p-name"></div>
+      <div class="p-desc"></div>
+      <div class="p-price"></div>
+      <button class="cart p-add">Adicionar ao carrinho</button>
+    </div>
+  </template>
+
+  <template id="template-cart">
+    <div class="c-item">
+      <div class="c-name"></div>
+      <button class="c-del cart">X</button>
+      <input class="c-qty" type="number" min="0" />
+    </div>
+  </template>
+  <template id="template-cart-saida">
+    <button class="c-vazio cart" onclick="cart.nuke()">Limpar</button>
+    <button class="c-sair cart" onclick="cart.checkout()">Sair</button>
+  </template>
+</body>
+
+</html>

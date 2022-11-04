@@ -1,0 +1,29 @@
+mysql>  select nome, posicao, clube from jogadores where pais="USA";
++-------------------+------------+----------------------+
+| nome              | posicao    | clube                |
++-------------------+------------+----------------------+
+| DAMARCUS BEASLEY  | Defender   | Puebla FC            |
+| KYLE BECKERMAN    | Midfielder | Real Salt Lake       |
+| TIM HOWARD        | Goalkeeper | Everton FC           |
+| BRAD DAVIS        | Midfielder | Houston Dynamo       |
+| JERMAINE JONES    | Midfielder | Besiktas JK          |
+| NICK RIMANDO      | Goalkeeper | Real Salt Lake       |
+| CLINT DEMPSEY     | Forward    | Seattle Sounders FC  |
+| MICHAEL BRADLEY   | Midfielder | Toronto FC           |
+| OMAR GONZALEZ     | Defender   | Los Angeles Galaxy   |
+| JOZY ALTIDORE     | Forward    | Sunderland AFC       |
+| BRAD GUZAN        | Goalkeeper | Aston Villa FC       |
+| ALEJANDRO BEDOYA  | Midfielder | FC Nantes            |
+| FABIAN JOHNSON    | Defender   | TSG 1899 Hoffenheim  |
+| MIX DISKERUD      | Midfielder | Rosenborg BK         |
+| GEOFF CAMERON     | Defender   | Stoke City FC        |
+| CHRIS WONDOLOWSKI | Forward    | San Jose Earthquakes |
+| GRAHAM ZUSI       | Midfielder | Sporting Kansas City |
+| TIMMY CHANDLER    | Defender   | 1. FC Nuernberg      |
+| ARON JOHANNSSON   | Forward    | AZ Alkmaar           |
+| MATT BESLER       | Defender   | Sporting Kansas City |
+| DEANDRE YEDLIN    | Defender   | Seattle Sounders FC  |
+| JULIAN GREEN      | Midfielder | FC Bayern Muenchen   |
+| JOHN BROOKS       | Defender   | Hertha BSC           |
++-------------------+------------+----------------------+
+23 rows in set (0.00 sec)

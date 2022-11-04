@@ -1,0 +1,2 @@
+mysql> insert into cartoes_jogadores (numero_de_cartoes_amarelos, numero_de_cartoes_vermelhos) values (90, 85);
+ERROR 1364 (HY000): Field 'jogador_id' doesn't have a default value

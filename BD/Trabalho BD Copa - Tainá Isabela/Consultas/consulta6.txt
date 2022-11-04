@@ -1,0 +1,38 @@
+mysql> select time1 as nome_do_pais, count(t.time1) as numero_de_jogos_time1, sum(t.gols_time1) as numero_gols_marcados_time1, sum(t.gols_time2) as gols_tomados_do_time2 from resultados_jogos t group by t.time1;
++----------------------+-----------------------+----------------------------+-----------------------+
+| nome_do_pais         | numero_de_jogos_time1 | numero_gols_marcados_time1 | gols_tomados_do_time2 |
++----------------------+-----------------------+----------------------------+-----------------------+
+| Algeria              |                     1 |                          1 |                     1 |
+| Argentina            |                     4 |                          5 |                     1 |
+| Australia            |                     2 |                          2 |                     6 |
+| Belgium              |                     3 |                          5 |                     2 |
+| Bosnia & Herzegovina |                     1 |                          3 |                     1 |
+| Brazil               |                     6 |                          7 |                    13 |
+| Cameroon             |                     2 |                          1 |                     8 |
+| Chile                |                     1 |                          3 |                     1 |
+| Columbia             |                     3 |                          7 |                     1 |
+| Costa Rica           |                     2 |                          1 |                     1 |
+| Croatia              |                     1 |                          1 |                     3 |
+| Ecuador              |                     1 |                          0 |                     0 |
+| England              |                     1 |                          1 |                     2 |
+| France               |                     3 |                          5 |                     1 |
+| Germany              |                     4 |                          9 |                     3 |
+| Ghana                |                     1 |                          1 |                     2 |
+| Greece               |                     1 |                          2 |                     1 |
+| Honduras             |                     2 |                          1 |                     5 |
+| Iran                 |                     1 |                          0 |                     0 |
+| Italy                |                     2 |                          0 |                     2 |
+| Ivory Coast          |                     1 |                          2 |                     1 |
+| Japan                |                     2 |                          1 |                     4 |
+| Mexico               |                     1 |                          1 |                     0 |
+| Netherlands          |                     4 |                          4 |                     1 |
+| Nigeria              |                     2 |                          3 |                     3 |
+| Portugal             |                     1 |                          2 |                     1 |
+| Russia               |                     1 |                          1 |                     1 |
+| South Korea          |                     2 |                          2 |                     5 |
+| Spain                |                     2 |                          1 |                     7 |
+| Switzerland          |                     2 |                          4 |                     6 |
+| Uruguay              |                     2 |                          3 |                     4 |
+| USA                  |                     2 |                          2 |                     3 |
++----------------------+-----------------------+----------------------------+-----------------------+
+32 rows in set (0.00 sec)

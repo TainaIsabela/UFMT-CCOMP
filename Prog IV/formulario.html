@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Formulario</title>
+</head>
+
+<body>
+    <form>
+        <fieldset>
+            <legend>Formulário de Cadastro:</legend>
+            <fieldset>
+                <legend>Dados pessoais:</legend>
+
+                <label for="Nome Completo">Nome Completo</label>
+                <br>
+                <input style="padding-right: 8cm;" type="text" name="Nome Completo" id="Nome Completo">
+                <br>
+                <label for="Email">Email</label>
+                <br>
+                <input type="email" name="Email" id="Email" required>
+                <label style="padding-left: 50px;" for="Data de Nascimento">Data de
+                    Nascimento</label>
+                <input type="date" name="Data de Nascimento" id="Data de Nascimento">
+                <br>
+                <label for="Cidade">Cidade</label>
+                <br>
+                <input type="text" name="Cidade" id="Cidade">
+
+                <label style="padding-left: 50px;" for="Estado">Estado</label>
+                <select name="Estado" id="Estado">
+                    <option value="Mato Grosso">Mato Grosso</option>
+                    <option value="Mato Grosso do Sul">Mato Grosso do Sul</option>
+                    <option value="Goias">Goias</option>
+                    <option value="Distrito Federal">Distrito Federal</option>
+                </select>
+                <label style="padding-left: 50px;" for="Sexo">Sexo:</label>
+                <input type="radio" name=" Masc." id="Sexo">
+                <label for="Sexo">Masc. </label>
+                <input type="radio" name=" Fem." id="Sexo">
+                <label for="Sexo">Fem. </label>
+                <br>
+            </fieldset>
+            <fieldset>
+                <legend>Informação acadêmicas:</legend>
+                <label for="RGA">RGA</label>
+                <input type="tel" name="RGA" id="RGA" required>
+                <br><br>
+                <label for="Disciplinas">Disciplinas do curso já realizadas (se aprovado)</label>
+                <br>
+                <input type="checkbox" name="Disciplinas" id="Disciplinas-ED1">
+                <label style="padding-right: 25px;" for="Disciplinas-ED">Estrutura de dados 1 </label>
+                <input type="checkbox" name="Disciplinas" id="Disciplinas-ED2">
+                <label style="padding-right: 25px;" for="Disciplinas-ED">Estrutura de dados 2 </label>
+                <input type="checkbox" name="Disciplinas" id="Programação 2">
+                <label style="padding-right: 25px;" for="Disciplinas-ED">Programação 2 </label>
+                <input type="checkbox" name="Disciplinas" id="Programação 3">
+                <label for="Disciplinas-ED">Programação 3 </label>
+                <br><br>
+                <label for="Horários">Horários disponíveis para aulas síncronas:</label>
+                <br>
+                <table style="border: 1px solid black">
+                    <tr>
+                        <th style="border: 1px solid black"></th>
+                        <th style="border: 1px solid black">Seg</th>
+                        <th style="border: 1px solid black">Ter</th>
+                        <th style="border: 1px solid black">Qua</th>
+                        <th style="border: 1px solid black">Qui</th>
+                        <th style="border: 1px solid black">Sex</th>
+                    </tr>
+                    <tr>
+                        <td style="border: 1px solid black">07:30 às 09:30</td>
+                        <td style="border: 1px solid black"><input type="checkbox" name="Horarios" id=""></td>
+                        <td style="border: 1px solid black"><input type="checkbox" name="Horarios" id=""></td>
+                        <td style="border: 1px solid black"><input type="checkbox" name="Horarios" id=""></td>
+                        <td style="border: 1px solid black"><input type="checkbox" name="Horarios" id=""></td>
+                        <td style="border: 1px solid black"><input type="checkbox" name="Horarios" id=""></td>
+                    </tr>
+                    <tr>
+                        <td style="border: 1px solid black">09:30 às 11:30</td>
+                        <td style="border: 1px solid black"><input type="checkbox" name="Horarios" id=""></td>
+                        <td style="border: 1px solid black"><input type="checkbox" name="Horarios" id=""></td>
+                        <td style="border: 1px solid black"><input type="checkbox" name="Horarios" id=""></td>
+                        <td style="border: 1px solid black"><input type="checkbox" name="Horarios" id=""></td>
+                        <td style="border: 1px solid black"><input type="checkbox" name="Horarios" id=""></td>
+                    </tr>
+                    <tr>
+                        <td style="border: 1px solid black">13:30 às 15:30</td>
+                        <td style="border: 1px solid black"><input type="checkbox" name="Horarios" id=""></td>
+                        <td style="border: 1px solid black"><input type="checkbox" name="Horarios" id=""></td>
+                        <td style="border: 1px solid black"><input type="checkbox" name="Horarios" id=""></td>
+                        <td style="border: 1px solid black"><input type="checkbox" name="Horarios" id=""></td>
+                        <td style="border: 1px solid black"><input type="checkbox" name="Horarios" id=""></td>
+                    </tr>
+                    <tr>
+                        <td style="border: 1px solid black">15:30 às 17:30</td>
+                        <td style="border: 1px solid black"><input type="checkbox" name="Horarios" id=""></td>
+                        <td style="border: 1px solid black"><input type="checkbox" name="Horarios" id=""></td>
+                        <td style="border: 1px solid black"><input type="checkbox" name="Horarios" id=""></td>
+                        <td style="border: 1px solid black"><input type="checkbox" name="Horarios" id=""></td>
+                        <td style="border: 1px solid black"><input type="checkbox" name="Horarios" id=""></td>
+                    </tr>
+                </table>
+
+            </fieldset>
+        </fieldset>
+    </form>
+    <button type="button">Enviar</button>
+    <button type="button">Limpar</button>
+</body>
+
+</html>

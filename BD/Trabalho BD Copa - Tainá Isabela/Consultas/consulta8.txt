@@ -1,0 +1,59 @@
+mysql> select NomePaís,
+    ->      sum(NoDeJogos) as NoDeJogos,
+    ->      sum(TotalGolsMarcados) as TotalGolsMarcados,
+    ->      sum(TotalGolsTomados) as TotalGolsTomados
+    ->      from (
+    ->      select time1 as NomePaís,
+    ->      count(*) as NoDeJogos,
+    ->      sum(gols_time1) as TotalGolsMarcados,
+    ->      sum(gols_time2) as TotalGolsTomados
+    ->      from resultados_jogos
+    ->      group by time1
+    ->      union
+    ->      select time2 as NomePaís,
+    ->      count(*) as NoDeJogos,
+    ->      sum(gols_time2) as TotalGolsMarcados,
+    ->      sum(gols_time1) as TotalGolsTomados
+    ->      from resultados_jogos
+    ->      group by time2),
+    ->      group by NomePaís order by sum(NoDeJogos) desc
+    -> ;
+Query OK, 0 rows affected (2.02 sec)
+
++----------------------+-----------+-------------------+------------------+
+| NomePaís             | NoDeJogos | TotalGolsMarcados | TotalGolsTomados |
++----------------------+-----------+-------------------+------------------+
+| Argentina            |         7 |                 8 |                4 |
+| Brazil               |         7 |                11 |               14 |
+| Germany              |         7 |                18 |                4 |
+| Netherlands          |         7 |                15 |                4 |
+| Belgium              |         5 |                 6 |                3 |
+| Columbia             |         5 |                12 |                4 |
+| Costa Rica           |         5 |                 5 |                2 |
+| France               |         5 |                10 |                3 |
+| Algeria              |         4 |                 7 |                7 |
+| Chile                |         4 |                 6 |                4 |
+| Greece               |         4 |                 3 |                5 |
+| Mexico               |         4 |                 5 |                3 |
+| Nigeria              |         4 |                 3 |                5 |
+| Switzerland          |         4 |                 7 |                7 |
+| Uruguay              |         4 |                 4 |                6 |
+| USA                  |         4 |                 5 |                6 |
+| Australia            |         3 |                 3 |                9 |
+| Bosnia & Herzegovina |         3 |                 4 |                4 |
+| Cameroon             |         3 |                 1 |                9 |
+| Croatia              |         3 |                 6 |                6 |
+| Ecuador              |         3 |                 3 |                3 |
+| England              |         3 |                 2 |                4 |
+| Ghana                |         3 |                 4 |                6 |
+| Honduras             |         3 |                 1 |                8 |
+| Iran                 |         3 |                 1 |                4 |
+| Italy                |         3 |                 2 |                3 |
+| Ivory Coast          |         3 |                 4 |                5 |
+| Japan                |         3 |                 2 |                6 |
+| Portugal             |         3 |                 4 |                7 |
+| Russia               |         3 |                 2 |                3 |
+| South Korea          |         3 |                 3 |                6 |
+| Spain                |         3 |                 4 |                7 |
++----------------------+-----------+-------------------+------------------+
+32 rows in set (0.00 sec)

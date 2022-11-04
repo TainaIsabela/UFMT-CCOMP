@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>4 - Alert em JavaScript</title>
+    <script type="text/javascript" language="javascript">
+        function countdown(contagem) {
+            alert('Contagem regressiva..');
+            for (let i = 0; contagem; i++) {
+                let cont = contagem - i;
+                if (cont == 0) {
+                    alert("BOOOOOOOOM!")
+                }
+                alert(cont);
+            }
+        }
+    </script>
+</head>
+
+<body>
+
+    <input type="button" onclick="countdown(9);" value="Exibir Alert" />
+
+</body>
+
+</html>

@@ -1,0 +1,18 @@
+mysql> select c.cidade_sede, count(c.cidade_sede) as numero_total_partidas from resultados_jogos c group by c.cidade_sede;
++----------------+-----------------------+
+| cidade_sede    | numero_total_partidas |
++----------------+-----------------------+
+| Sao Paulo      |                     6 |
+| Natal          |                     4 |
+| Salvador       |                     6 |
+| Cuiaba         |                     4 |
+| Belo Horizonte |                     6 |
+| Recife         |                     5 |
+| Fortaleza      |                     6 |
+| Manaus         |                     4 |
+| Brasilia       |                     7 |
+| Porto Alegre   |                     5 |
+| Rio De Janerio |                     7 |
+| Curitiba       |                     4 |
++----------------+-----------------------+
+12 rows in set (0.00 sec)

@@ -1,0 +1,13 @@
+mysql> select * from resultados_jogos where time1 = 'Brazil' or time2 = 'Brazil' ;
++------------+------------+-------------+----------+-------------+------------+------------+--------------------+----------------+
+| partida_id | data_jogo  | hora_inicio | time1    | time2       | gols_time1 | gols_time2 | estadio            | cidade_sede    |
++------------+------------+-------------+----------+-------------+------------+------------+--------------------+----------------+
+|          1 | 2014-06-12 | 17:00:00    | Brazil   | Croatia     |          3 |          1 | Arena de Sao Paulo | Sao Paulo      |
+|         17 | 2014-06-17 | 16:00:00    | Brazil   | Mexico      |          0 |          0 | Estadio Castelao   | Fortaleza      |
+|         33 | 2014-06-23 | 17:00:00    | Cameroon | Brazil      |          1 |          4 | Estadio Nacional   | Brasilia       |
+|         49 | 2014-06-28 | 13:00:00    | Brazil   | Chile       |          1 |          1 | Estadio Mineirao   | Belo Horizonte |
+|         57 | 2014-07-04 | 17:00:00    | Brazil   | Columbia    |          2 |          1 | Estadio Castelao   | Fortaleza      |
+|         61 | 2014-07-08 | 17:00:00    | Brazil   | Germany     |          1 |          7 | Estadio Mineirao   | Belo Horizonte |
+|         63 | 2014-07-12 | 17:00:00    | Brazil   | Netherlands |          0 |          3 | Estadio Nacional   | Brasilia       |
++------------+------------+-------------+----------+-------------+------------+------------+--------------------+----------------+
+7 rows in set (0.00 sec)

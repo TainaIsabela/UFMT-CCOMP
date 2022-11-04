@@ -1,0 +1,38 @@
+mysql> select nome_do_pais, populacao from pais order by populacao desc ;
++----------------------+-----------+
+| nome_do_pais         | populacao |
++----------------------+-----------+
+| USA                  |    318.90 |
+| Brazil               |    202.40 |
+| Nigeria              |    173.60 |
+| Russia               |    142.46 |
+| Japan                |    127.06 |
+| Mexico               |    122.30 |
+| Germany              |     82.60 |
+| Iran                 |     77.97 |
+| France               |     64.60 |
+| Italy                |     61.07 |
+| England              |     53.50 |
+| South Korea          |     50.42 |
+| Columbia             |     49.14 |
+| Spain                |     47.10 |
+| Argentina            |     42.30 |
+| Algeria              |     39.90 |
+| Ghana                |     25.90 |
+| Australia            |     23.59 |
+| Cameroon             |     23.03 |
+| Ivory Coast          |     20.32 |
+| Chile                |     17.62 |
+| Netherlands          |     16.90 |
+| Ecuador              |     15.98 |
+| Belgium              |     11.20 |
+| Greece               |     11.20 |
+| Portugal             |     10.58 |
+| Honduras             |      8.09 |
+| Switzerland          |      8.00 |
+| Costa Rica           |      4.87 |
+| Croatia              |      4.25 |
+| Bosnia & Herzegovina |      3.83 |
+| Uruguay              |      3.42 |
++----------------------+-----------+
+32 rows in set (0.00 sec)

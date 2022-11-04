@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Carrinho de compras</title>
+    <style type="text/css">
+        .violet {
+            width: 25rem;
+            height: 25rem;
+            display: flexbox;
+            background-color: violet;
+        }
+
+        .orange {
+            margin-left: 10%;
+            width: 25rem;
+            height: 25rem;
+            display: flexbox;
+            background-color: orange;
+        }
+
+        .total {
+            margin-top: 55%;
+            margin-left: 5%;
+            margin-right: 5%;
+            background-color: whitesmoke;
+        }
+    </style>
+</head>
+
+
+<body style="display: flex;">
+    <div class="violet">
+        <h1 style="padding: 10px; text-align:center">Produtos</h1>
+        <select style="margin-left: 30%" name="Produtos" id="Produtos">
+            <option value="Escolha um Produto">Escolha um Produto..</option>
+            <option value="Coraline">Coraline R$100</option>
+            <option value="Noiva cadáver">Noiva cadáver R$120</option>
+            <option value="Frankweenie">Frankweenie R$80</option>
+            <option value="ParaNorman">ParaNorman R$110</option>
+        </select>
+        <br>
+        <button style="margin-top: 30%; margin-left: 30%;">
+            <a href="#add" onclick="add()">Adicionar</a></button>
+            
+    </div>
+    <div class="orange">
+        <h1 style="padding: 10px; text-align:center">Carrinho</h1>
+        <h3 class="total">Total: R$ </h3>
+
+
+    </div>
+</body>
+
+</html>

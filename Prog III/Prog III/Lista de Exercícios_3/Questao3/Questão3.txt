@@ -1,0 +1,20 @@
+3.Quais são os supertipos da classe String e Scanner? Lembre-se que em java uma classe ou interface sem supertipo declarado tem como supertipo Object.
+
+ * Supertipos da classe String:
+ *
+ * String (própria)
+ * Object (superclasse)
+ * Serializable (interface)
+ * Comparable<String> (interface)
+ * CharSequence (interface)
+ * Constable (interface)
+ * ConstantDesc (interface)
+ *
+ * Supertipos da classe Scanner:
+ *
+ * Scanner (própria)
+ * Object (superclasse)
+ * Closeable (interface)
+ * AutoCloseable (interface)
+ * Iterator<String> (interface)
+ *

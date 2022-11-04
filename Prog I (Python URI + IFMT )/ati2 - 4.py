@@ -1,0 +1,7 @@
+print('Digite um valor:')
+val1 = int(input())
+print('Digite um operador:')
+ope = input()
+print('Digite outro valor:')
+val2 = int(input())
+print(val1, ope, val2)
