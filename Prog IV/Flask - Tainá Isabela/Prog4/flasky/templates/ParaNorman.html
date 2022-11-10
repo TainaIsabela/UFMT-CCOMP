@@ -1,0 +1,43 @@
+{% extends "bootstrap/base.html" %}
+{% block title %}Fã Clube dos adoradores de Stop-Motion{% endblock %}
+{% block navbar %}
+<div style="background-color: purple;" class="navbar navbar-inverse" role="navigation">
+<div class="container">
+<div class="navbar-header">
+<button type="button" class="navbar-toggle"
+data-toggle="collapse" data-target=".navbar-collapse">
+<span class="sr-only">Toggle navigation</span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+</button>
+<a  class="navbar-brand" href="/">Fã Clube dos adoradores de Stop-Motion</a>
+</div>
+<div class="navbar-collapse collapse">
+<ul class="nav navbar-nav">
+<li><a href="/">Home</a></li>
+<li><a href="/Coraline">Coraline</a></li>
+<li><a href="/Noivacadaver">Noiva Cádaver</a></li>
+<li><a href="/Frankweenie">FrankWeenie</a></li>
+<li><a href="/Paranorman">ParaNorman</a></li>
+</ul>
+</div>
+</div>
+</div>
+{% endblock %}
+{% block content %}
+<div class="container">
+<div class="page-header">
+
+<h1>ParaNorman</h1>
+<img style="margin-bottom: 5%; width: 50%;" src="/static/img/Para.jpg">
+<div style=" width: 40%; display: flexbox; float: right;">
+    <h2>Sinopse:</h2><br><br>
+    <h4>
+        
+        O jovem Norman Babcock consegue falar com os mortos e prefere conviver com eles a conviver com os vivos. Seu tio Prenderghast se comunica com ele para dizer que a maldição de uma bruxa centenária vai se realizar, e apenas Norman pode detê-la.
+    </h4>
+</div>
+</div>
+</div>
+{% endblock %}

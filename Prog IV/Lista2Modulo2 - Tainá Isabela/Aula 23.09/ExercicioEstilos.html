@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<!-- saved from url=(0071)http://htmlandcssbook.com/code-samples/chapter-14/list-style-image.html -->
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>Coraline</title>
+    <style type="text/css">
+        ul {
+            list-style-image: url("img/star.png");
+        }
+
+        li {
+            margin: 20px 20px 0px 0px;
+        }
+
+        table {
+            width: 600px;
+            margin-top: 4%;
+            margin-bottom: 4%;
+
+        }
+
+        th,
+        td {
+            border-spacing: 0px;
+            text-align: left;
+            padding: 10px 10px 10px 10px;
+
+        }
+
+        th {
+            text-transform: uppercase;
+            letter-spacing: 0.1em;
+            font-size: 90%;
+            border-bottom: 2px solid #111111;
+            text-align: left;
+            background-color: #0d385f;
+            color: aliceblue;
+
+        }
+
+        tr.even {
+            background-color: #e7ac5f81;
+        }
+
+        tr:hover {
+            background-color: #0d385f;
+            color: aliceblue;
+        }
+
+        fieldset {
+            width: 30rem;
+            margin-top: 20px;
+            border: 1px solid #d6d6d6;
+            background-color: #ffffff;
+            line-height: 1.6em;
+        }
+
+        legend {
+            font-style: italic;
+            color: #666666;
+        }
+
+        label {
+            margin-bottom: 1rem;
+        }
+
+        input[type="text"] {
+            border-radius: 5px;
+            margin-bottom: 1rem;
+            width: 15rem;
+            border: 1px solid #d6d6d6;
+            padding: 2px;
+            outline: none;
+        }
+
+        input[type="radio"]:active,
+        input[type="radio"]:hover {
+            background-color: #d0e2f0;
+            border: 1px solid #030446d8;
+        }
+
+        input[type="text"]:focus,
+        input[type="text"]:hover {
+            background-color: #d0e2f0;
+            border: 1px solid #030446d8;
+        }
+
+        input[type="submit"] {
+            border: 1px solid #006633;
+            background-color: #009966;
+            color: #ffffff;
+            border-radius: 5px;
+            padding: 5px;
+            margin-top: 10px;
+        }
+
+        input[type="submit"]:hover {
+            border: 1px solid #006633;
+            background-color: #00cc33;
+            color: #ffffff;
+            cursor: pointer;
+        }
+
+        .title {
+            float: left;
+            width: 160px;
+            clear: left;
+        }
+
+        .submit {
+            width: 310px;
+            text-align: right;
+        }
+
+        img {
+            width: 9rem;
+            height: 9rem;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Coraline e o Mundo Secreto</h1>
+    <h2>Personagens Principais:</h2>
+    <ul>
+        <li>Coraline Jones</li>
+        <li>Gato</li>
+        <li>Wybie Lovat</li>
+        <li>Outra Mãe</li>
+        <li>Mãe de Coraline</li>
+        <li>Pai de Coraline</li>
+    </ul>
+    <table>
+        <tbody>
+            <tr class="even">
+                <th></th>
+                <th>Personagem</th>
+                <th>Voz</th>
+                <th>Dublador</th>
+            </tr>
+            <tr>
+                <td><img src="img/coraline.jpg"></td>
+                <td>Coraline Jones</td>
+                <td>Dakota Fanning</td>
+                <td>Lina Mendes</td>
+            </tr>
+            <tr class="even">
+                <td><img src="img/cat.jpg"></td>
+                <td>Gato</td>
+                <td>Keith David</td>
+                <td>Mauro Ramos</td>
+            </tr>
+            <tr>
+                <td><img src="img/wybie.png"></td>
+                <td>Wybie Lovat</td>
+                <td>Robert Bailey Jr</td>
+                <td>Gustavo Nader</td>
+            </tr>
+            <tr class="even">
+                <td><img src="img/outramAE.jpg"></td>
+                <td>Outra Mãe</td>
+                <td>Teri Hatcher</td>
+                <td>Mônica Rossi</td>
+            </tr>
+            <tr>
+                <td><img src="img/mam.webp"></td>
+                <td>Mãe de Coraline</td>
+                <td>Teri Hatcher</td>
+                <td>Mônica Rossi</td>
+            </tr>
+            <tr class="even">
+                <td><img src="img/coraline-dad.gif"></td>
+                <td>Pai de Coraline</td>
+                <td>Jonh Hodgman</td>
+                <td>Eduardo Borgerth</td>
+            </tr>
+
+        </tbody>
+    </table>
+
+    <form action="http://www.example.com/form.php" method="get">
+        <fieldset>
+            <legend>Se cadastre no fã-clube de stopmotion</legend>
+            <p><label class="title" for="name">Seu nome:</label>
+                <input type="text" name="name" id="name"><br>
+                <label class="title" for="email">Seu melhor email:</label>
+                <input type="text" name="email" id="email">
+            </p>
+            <p><label for="location" class="title">Onde vive:</label>
+                <select name="location" id="location">
+                    <option value="CI">Caverna Inacessível</option>
+                    <option value="VLA">Video-locadora assombrada</option>
+                    <option value="PA">Porão Abandonado</option>
+                </select>
+            </p>
+            <span class="title">Você assistiu Coraline?</span>
+            <label><input type="radio" name="member" value="yes"> Perdi de conta quantas vezes</label>
+            <br>
+            <label><input type="radio" name="member" value="no"> Nunca tinha visto, chocada</label>
+        </fieldset>
+        <div class="submit"><input type="submit" value="Invadindo"></div>
+    </form>
+
+
+</body>
+
+</html>
