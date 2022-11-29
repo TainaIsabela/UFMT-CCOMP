@@ -1,0 +1,7 @@
+1A- 192.168.1.119
+1B- ICMP(1)
+1C- 20 bytes
+1D- 28 bytes
+1E- Sim, quando um datagrama é fragmentado cada fragmento recebe o número de identificação, endereço IP de origem e destino iguais aos do datagrama original.
+1F- identification, por que o intuito deste campo é de identifica os pacotes. Sim, caso a requisição não seja a continuação de uma fragmentação o campo mudará.
+
