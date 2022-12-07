@@ -1,0 +1,2 @@
+1º comando dentro da pasta: pipenv install
+2º comando dentro da pasta: python3 app.py
