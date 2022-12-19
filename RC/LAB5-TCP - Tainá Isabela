@@ -1,0 +1,8 @@
+1 - O número de sequência é 1791992073, é mostrado na info que o segmento é tipo SYN.
+2 - O número de seq é 4290122146 e o ack é 1 também.
+3 - O número de seq é 1. 
+4 - 1, 2897, 5793, 8689, 11585, 14481. 7.891247025, 7.893486444, 7.893486774, 7.896554570, 7.900462626, 7.904189626. 
+RTT:  0.208393412, 0.203324237, 0.203287330, 0.201887647, 0.201857006, 0.200800943.
+5 - O tamanho dos segmentos é 2962.
+6 - 31872.
+7 - Sim, o wireshark mostra pela info, mas é possível saber pela número de sequêcia

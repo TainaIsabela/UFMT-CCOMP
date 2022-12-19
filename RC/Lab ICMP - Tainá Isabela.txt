@@ -1,0 +1,14 @@
+Lab 1 -
+1- Meu IP: 10.1.17.29, Ip de destino: 128.93.162.29
+2- Mensagens ICMP são roteadas como outro datagrama qualquer, então não tem garantia de entrega para o destino final.
+3- type = 8, code = 0. Isso significa que o tipo é um echo e code sendo 0, que a resposta deve ser de um eco. Apresenta checksum, identifier, sequence number e Timestamp from icmp data. 
+4- Checksum tem 2 bytes, identifier tem 2 bytes e sequence number também tem 2 bytes.
+5- Os campos identifier e sequence number servem para distinguir e "casar requisições", encontrando de forma mais rápida qual é a resposta de determinada requisição.
+
+Lab 2- 
+1- 1, que o protocolo utilizado foi o ICMP.
+2- Sim, o ICMP possui mais campos.
+3- Sim, dentro do ICMP possui o Internet Protocol.
+4- As resposta possuem sequence Number, e o checksum consta como correto, o tipo também muda para resposta de echo.
+
+

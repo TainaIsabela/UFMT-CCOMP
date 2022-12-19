@@ -1,0 +1,22 @@
+1 . Quais os endereços MAC de origem e destino do quadro que contém a requisição
+HTTP? Estes endereços se referem a quais nós?
+
+-> Src: Dell_83:48:b6 (a4:bb:6d:83:48:b6), Dst: Ubiquiti_2b:50:5c (e0:63:da:2b:50:5c)
+   Os endereços corresponde aos da máquina de origem da requisição e do roteador no qual a mesma
+   está conectada.
+
+2 . Ainda com relação ao quadro anterior qual o valor do campo type? O que este valor
+significa?
+-> O valor do campo type é de 0x0800, que o protocolo IPv4 está sendo utilizado
+
+3 . Quantos bytes os cabeçalhos HTTP, TCP e IP ocupam no quadro respectivamente?
+-> 394 bytes
+
+4 . Quais os endereços MAC de origem e destino do primeiro quadro que contém a
+resposta HTTP? Estes endereços se referem a quais nós?
+-> Src: Ubiquiti_2b:50:5c (e0:63:da:2b:50:5c), Dst: Dell_83:48:b6 (a4:bb:6d:83:48:b6)
+   Os endereços são da maquina de origem e do destino.
+
+5 . Quantos bytes os cabeçalhos HTTP, TCP e IP ocupam, individualmente, no quadro?
+-> http = 342 bytes, ip = 20 bytes, tcp = 32 bytes
+
